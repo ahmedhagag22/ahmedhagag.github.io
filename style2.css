@@ -1,0 +1,60 @@
+body{
+    padding: 10px 40px;
+    width: 500px;height: 800px;
+    border: 5px solid #000;
+     direction: rtl;
+    
+   }
+div
+{
+    width: 500px;
+    height: 200px;
+    border: 2px solid #000;
+    background-color: #B7B5B5;
+}
+h1
+{
+    text-align: center;
+}
+#nm1
+{
+    direction: rtl;
+margin:0;
+padding: 0;
+background-color: #CE7979;
+height: 30px;
+width: 150px;border: 2px solid #000;
+text-align: center;
+
+
+    
+}
+p
+{
+ font-size:23px;   
+}
+#nm2
+{
+    direction: ltr;
+    text-align: center;
+    border: 2px solid #000;
+    width: 150px;
+    height: 30px;
+margin:0;
+padding: 0;
+background-color: #D83E3E;
+color: white;
+    
+}
+#nm3
+{
+    direction: ltr;
+    text-align: center;
+    border: 2px solid #000;
+    width: 150px;
+    height: 30px;
+margin:0;
+padding: 0;
+background-color:#D6C45E;
+color:;
+}
