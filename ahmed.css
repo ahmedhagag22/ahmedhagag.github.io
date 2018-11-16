@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+h1 {
+  margin-bottom: 15%;
+}
+ .corsera {
+  width: 90%;
+  margin-left: 5%;
+}
+ /********** Large devices only **********/
+@media (min-width: 992px) {
+  .div-lg-1, .div-lg-2, .div-lg-3, .div-lg-4, .div-lg-5, .div-lg-6, .div-lg-7, .div-lg-8, .div-lg-9, .div-lg-10, .div-lg-11, .div-lg-12 {
+    float: left;
+    border: black solid 1px;
+    background-color: grey;
+    opacity: 0.9;
+    float: left;
+    height: 30%;  
+    position: relative; 
+  }
+  .div-lg-4 {
+    width: 32%;
+    margin-left: 1%;
+  }
+  html{
+    background: #D0E4F5 url("http://elmalloino.cl/wp-content/uploads/2017/04/pescado-grecia.jpg") no-repeat scroll 0px 0px;
+    background-size: 100%;  
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .div-md-1, .div-md-2, .div-md-3, .div-md-4, .div-md-5, .div-md-6, .div-md-7, .div-md-8, .div-md-9, .div-md-10, .div-md-11, .div-md-12 {
+    float: left;
+    border: black solid 1px;
+    background-color: grey;
+    opacity: 0.9;
+    float: left;
+    height: 30%;  
+    position: relative; 
+  }
+  .div-md-6 {
+    width: 48%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+  }
+  .div-md-12 {
+    width: 100%;
+  }
+  html{
+    background: #D0E4F5 url("https://static.al-masdar.net/uploads/2014/04/82567330-640x360.jpg") no-repeat scroll 0px 0px;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    }
+}
+ @media (max-width: 767px){
+/********** Small devices only **********/
+  .div-sm-1, .div-sm-2, .div-sm-3, .div-sm-4, .div-sm-5, .div-sm-6, .div-sm-7, .div-sm-8, .div-sm-9, .div-sm-10, .div-sm-11, .div-sm-12 {
+    float: left;
+    border: black solid 1px;
+    background-color: grey;
+    opacity: 0.9;
+    float: left;
+    height: 30%;  
+    position: relative; 
+  }
+  .div-sm-12 {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  html{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/05/06/66/54596f5524a94ff.jpg");
+    background-size: 100%
+  }
+}
+ h1{
+    color:#990A4F;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    text-align: center;
+    font-size: 300%;
+  }
+  
+ .meat{
+        background-color: #A52A2A;
+        position: absolute;
+        float: left;
+        height: 15%;
+        width: 20%;
+        top: 0%;
+        left: 80%;
+        border: 1px solid black;
+        text-align: center;
+    }
+     #Fish{
+      background-color: blue;
+    }
+    #Chicken{
+      background-color: red; 
+    }
+    #Beef{
+      background-color: darkorange;
+    }
+    .description{
+      margin-top: 10%;
+      margin-inline-start: 5%;
+      margin-inline-end: 5%
+    }
