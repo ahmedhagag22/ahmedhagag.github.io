@@ -1,0 +1,60 @@
+.navbar-brand
+{
+  font-size: 50px;
+  color: red;
+}
+.navbar-toggler
+{
+  background-color: pink;
+
+}
+.navbar-light .navbar-brand
+ {
+    color:red;
+}
+.navbar-toggler-icon
+{
+ background-color: pink;
+}
+
+.navbar-nav
+{
+  font-size: 40px;
+  text-align: center;
+  background-color:pink;
+
+}
+h1
+{
+  text-align: center;
+  border-style: outset;
+  border-color: #ee82ee;
+  border-width: 5px;
+  box-sizing: 50px;
+
+
+}
+@media (min-width: 760px)
+{
+  .nav-item
+  {
+    display: none;
+  }
+}
+p
+{
+  border-style: solid;
+  border-color: pink;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%; 
+}
+.top
+{
+  text-align: center;
+  font-size: 50px;
+  color: pink ;
+  border-style: solid;
+  padding-right: 20px;
+
+}
