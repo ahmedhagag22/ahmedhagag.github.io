@@ -1,0 +1,63 @@
+body{background-image:  url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/55/07/235863b645970a4.jpg")}
+.navbar-brand
+{
+  font-size: 50px;
+  color: #EFEB09;
+}
+.navbar-toggler
+{
+  background-color: #D33D56;
+
+}
+.navbar-light .navbar-brand
+ {
+    color:red;
+}
+.navbar-toggler-icon
+{
+ background-color: #FFFA00;
+}
+
+.navbar-nav
+{
+  font-size: 40px;
+  text-align: center;
+  background-color:#AD1A32;
+
+}
+h1
+{
+  text-align: center;
+  border-style: outset;
+  border-color: #4F414F;
+  border-width: 5px;
+  box-sizing: 50px;
+
+
+}
+@media (min-width: 760px)
+{
+  .nav-item
+  {
+    display: none;
+  }
+}
+p
+{
+  border-style: solid;
+  border-color: #F9EFF1;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  padding: 10px;
+  font-weight: bold;
+}
+.top
+{
+  text-align: center;
+  font-size: 50px;
+  color: #D82B48 ;
+  border-style: solid;
+  padding-right: 20px;
+
+}
